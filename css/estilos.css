@@ -1,0 +1,304 @@
+/**
+ * 
+ * ESTILO UNICAMENTE DE PLANTILLA
+ * echa:22-06-2015
+ * creado:fredy-199210@hotmail.com 
+ * 	HEADER, NAV, SECTION Y FOOTER
+ * 
+ */
+
+	*{/** margin:px; **/ padding:0px}
+		header, footer, section, nav
+		 {
+		  display:blocks
+		 }
+		 	.containerplantilla
+		  {
+		    margin:10PX;
+		    width:670px;
+		  /** margin-top:20px **/
+		  }
+		  
+	#nav
+	{
+	 overflow:auto;
+	}
+	 #nav ul
+	  {
+		list-style:none;
+		height:30px;
+		padding:0px;
+		margin:px;
+	  }
+		#nav ul li
+		 {
+		  float:left;
+		  margin:10px;
+		 }
+	
+	#main
+	 {
+	  overflow:auto;
+	 }
+	  #content
+	   {
+		float:left;
+		width:600px;
+	   }
+		#sidebar
+		 {
+		  float:right;
+		  width:330px;
+	 	 }
+	 	 
+	
+	#main, #header, #nav
+	 {
+	  overflow:auto;
+	 }
+	  #content
+	   {
+		float:left;
+		width:670px;
+	   }
+		#sidebar
+		 {
+		  float:right;
+		  width:330px;
+		 }
+		 
+  /**
+   * 
+   * ESTILO COMPLETO DEL FORMATO PLANTILLA 1	
+   *
+   **/ 
+   
+		 
+	.elegant-aero { margin-left:auto;
+				    margin-right:auto;
+				
+				    max-width: 670px;
+				    background: #CFCFCF;
+				    padding: 20px 20px 20px 20px;
+				    font: 12px Arial, Helvetica, sans-serif;
+				    color: #666; }
+		.elegant-aero h1 {  font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+						    padding: 10px 10px 10px 20px;
+						    display: block;
+						    background: #CFCFCF;
+						    border-bottom: 1px solid #CFCFCF;
+						    margin: -20px -20px 15px; }
+		.elegant-aero label>span {  float: left;
+								    margin-top: 10px;
+								    color: #CFCFCF; }
+		.elegant-aero label {   display: block;
+							    margin: 0px 0px 5px; }
+		.elegant-aero label>span { float: left;
+								   width: 20%;
+								   text-align: right;
+								   padding-right: 15px;
+								   margin-top: 10px;
+								   font-weight: bold; }
+	
+	
+	
+	/**
+	 * 
+	 * ESTILO DE LA TABLA	
+	 * 
+	 */
+	
+		td{
+		 	width:200px;
+		   }
+		a{
+			text-decoration:none;
+			cursor:pointer;
+		}
+		   
+		   
+		   
+	
+	/**
+	 * 
+	 * ESTILO DE HIPERVINCULOS	
+	 * 
+	 */
+
+	.ul {color:red;}
+	.a {color:#0000CC; text-decoration: none;}
+	
+	.a:hover {
+	/**	text-transform: uppercase;  hacer grance el hipervinculo al pasar x encima el cursor **/
+	/**	font-weight:bold; **/
+		color:red;
+		background-color:;
+	}
+	
+	/**
+	 * 
+	 * ESTILO DE BOTON REGRESAR	
+	 * 
+	 */
+	
+	.buttonregresar{                                         
+       border-top: 1px solid #68b1de;
+	   background: #666f75;
+	   background: -webkit-gradient(linear, left top, left bottom, from(#577182), to(#666f75));
+	   background: -webkit-linear-gradient(top, #577182, #666f75);
+	   background: -moz-linear-gradient(top, #577182, #666f75);
+	   background: -ms-linear-gradient(top, #577182, #666f75);
+	   background: -o-linear-gradient(top, #577182, #666f75);
+	   padding: 3px 6px;
+	   -webkit-border-radius: 9px;
+	   -moz-border-radius: 9px;
+	   border-radius: 9px;
+	   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	   color: #ffffff;
+	   font-size: 14px;
+	   font-family: Georgia, Serif;
+	   text-decoration: none;
+	   vertical-align: middle;
+	 }
+	.button:hover {
+   		border-top-color: #356b8c;
+   		background: #356b8c;
+   		color: #ffffff;
+   	}
+	.button:active {
+   		border-top-color: #000000;
+   		background: #000000;
+  	}
+  	
+	/**
+	 * 
+	 * ESTILO DE TODOS LOS BOTONES
+	 * 
+	 */
+	
+	.buttongeneral{                                         
+       border-top: 1px solid #68b1de;
+	   background: #666f75;
+	   background: -webkit-gradient(linear, left top, left bottom, from(#577182), to(#666f75));
+	   background: -webkit-linear-gradient(top, #577182, #666f75);
+	   background: -moz-linear-gradient(top, #577182, #666f75);
+	   background: -ms-linear-gradient(top, #577182, #666f75);
+	   background: -o-linear-gradient(top, #577182, #666f75);
+	   padding: 3px 6px;
+	   -webkit-border-radius: 9px;
+	   -moz-border-radius: 9px;
+	   border-radius: 9px;
+	   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	   color: #ffffff;
+	   font-size: 14px;
+	   font-family: Georgia, Serif;
+	   text-decoration: none;
+	   vertical-align: middle;
+	 }
+	.button:hover {
+   		border-top-color: #356b8c;
+   		background: #356b8c;
+   		color: #ffffff;
+   	}
+	.button:active {
+   		border-top-color: #000000;
+   		background: #000000;
+  	}
+  	
+	/**}
+	 * 
+	 * ESTILO UNICAMENTE DE LOS INPUT DE NUEVO REGISTRO	
+	 * 
+	 */
+
+	.font {
+		font-size: 25px;
+		width:270px;
+			     
+	    box-shadow: 
+	      inset 0 0 8px  rgba(0,0,0,0.1),    
+	}
+	
+	
+	/**
+	 * 
+	 * ESTILO DE BOTONES DE FORMULARIO PLANTILLA2 CONTENIDO EDITAR (CAMBIAR Y BORRAR)
+	 * 
+	 */
+	
+	.buttoncambiaborrar{                                         
+        
+	   background: #1f4761;
+	   background: -webkit-gradient(linear, left top, left bottom, from(#1f4761), to(#1f4761));
+	   background: -webkit-linear-gradient(top, #1f4761, #1f4761);
+	   background: -moz-linear-gradient(top, #1f4761, #1f4761);
+	   background: -ms-linear-gradient(top, #1f4761, #1f4761);
+	   background: -o-linear-gradient(top, #1f4761, #1f4761);
+	   padding: 12px;
+	   -webkit-border-radius: 0px;
+	   -moz-border-radius: 0px;
+	    border-radius: 9px;
+	   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	   color: #ffffff;
+	   font-size: 20px;
+	   font-family: Georgia, serif;
+	   text-decoration: none;
+	   vertical-align: middle;
+	   }
+	.button:hover {
+	   border-top-color: #1f4761;
+	   background: #1f4761;
+	   color: #ffffff;
+	   }
+	.button:active {
+	   border-top-color: #1f4761;
+	   background: #1f4761;
+	   }
+	   
+	 /**
+	 * 
+	 * ESTILO DE BOTONES DE FORMULARIO PLANTILLA1 CONTENIDO1 EDITAR (CAMBIAR Y BORRAR)
+	 * 
+	 */	   
+	
+	.buttonexaminarcontinuar{                                         
+        
+	   background: #1f4761;
+	   background: -webkit-gradient(linear, left top, left bottom, from(#1f4761), to(#1f4761));
+	   background: -webkit-linear-gradient(top, #1f4761, #1f4761);
+	   background: -moz-linear-gradient(top, #1f4761, #1f4761);
+	   background: -ms-linear-gradient(top, #1f4761, #1f4761);
+	   background: -o-linear-gradient(top, #1f4761, #1f4761);
+	 /** padding: 12px; **/
+	   -webkit-border-radius: 0px;
+	   -moz-border-radius: 0px;
+	    border-radius: 10px;
+	   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	   color: #ffffff;
+	   font-size: 20px;
+	   font-family: Georgia, serif;
+	   text-decoration: none;
+	   vertical-align: middle;
+	   }
+	.button:hover {
+	   border-top-color: #1f4761;
+	   background: #1f4761;
+	   color: #ffffff;
+	   }
+	.button:active {
+	   border-top-color: #1f4761;
+	   background: #1f4761;
+	   }
+	
